@@ -1,0 +1,97 @@
+.heroContainer {
+    position: relative;
+    background-image: url("../../assets/Rectangle\ 1\ \(3\).png"); 
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+    color: white;
+  }
+  .title{
+    @media (max-width: 767px) {
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
+  .subTitle{
+    margin: 12px 0 24px;
+    @media (max-width: 767px) {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  .bannerImage{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .content {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+  }
+  
+  .exploreBtn {
+    background-color: #00ff8b;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .exploreBtn:hover {
+    background-color: #00cc6e;
+  }
+  
+  .feedbackBtn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .feedbackBtn:hover {
+    background-color: white;
+    color: #333;
+  }
+  

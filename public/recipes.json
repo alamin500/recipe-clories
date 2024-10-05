@@ -1,0 +1,101 @@
+{
+    "recipes": [
+      {
+        "recipe_id": 1,
+        "recipe_name": "Spaghetti Bolognese",
+        "short_description": "Classic Italian pasta dish with savory meat sauce.",
+        "ingredients": [
+          "500g ground beef",
+          "1 onion, chopped",
+          "2 cloves garlic, minced",
+          "400g spaghetti",
+          "400g tomato sauce",
+          "50g parmesan cheese"
+        ],
+        "preparing_time": "30 min",
+        "calories": "600 calories",
+        "recipe_image": "spaghetti_bolognese.jpg"
+      },
+      {
+        "recipe_id": 2,
+        "recipe_name": "Chicken Caesar Salad",
+        "short_description": "Fresh salad with grilled chicken, lettuce, and Caesar dressing.",
+        "ingredients": [
+          "300g grilled chicken",
+          "100g romaine lettuce",
+          "50g croutons",
+          "50g parmesan cheese",
+          "100ml Caesar dressing",
+          "1 boiled egg"
+        ],
+        "preparing_time": "20 min",
+        "calories": "400 calories",
+        "recipe_image": "chicken_caesar_salad.jpg"
+      },
+      {
+        "recipe_id": 3,
+        "recipe_name": "Beef Tacos",
+        "short_description": "Tacos filled with seasoned beef, lettuce, and cheese.",
+        "ingredients": [
+          "500g ground beef",
+          "1 packet taco seasoning",
+          "200g shredded lettuce",
+          "100g shredded cheese",
+          "8 taco shells",
+          "100g salsa"
+        ],
+        "preparing_time": "25 min",
+        "calories": "550 calories",
+        "recipe_image": "beef_tacos.jpg"
+      },
+      {
+        "recipe_id": 4,
+        "recipe_name": "Margarita Pizza",
+        "short_description": "Traditional Italian pizza with mozzarella and fresh basil.",
+        "ingredients": [
+          "300g pizza dough",
+          "200g tomato sauce",
+          "150g mozzarella cheese",
+          "10 fresh basil leaves",
+          "1 tbsp olive oil",
+          "1 tsp salt"
+        ],
+        "preparing_time": "40 min",
+        "calories": "700 calories",
+        "recipe_image": "margarita_pizza.jpg"
+      },
+      {
+        "recipe_id": 5,
+        "recipe_name": "Grilled Salmon",
+        "short_description": "Perfectly grilled salmon served with a lemon butter sauce.",
+        "ingredients": [
+          "2 salmon fillets",
+          "1 lemon, sliced",
+          "2 tbsp butter",
+          "1 tsp salt",
+          "1 tsp black pepper",
+          "1 tbsp olive oil"
+        ],
+        "preparing_time": "20 min",
+        "calories": "350 calories",
+        "recipe_image": "grilled_salmon.jpg"
+      },
+      {
+        "recipe_id": 6,
+        "recipe_name": "Vegetable Stir-fry",
+        "short_description": "Quick stir-fry with fresh vegetables and soy sauce.",
+        "ingredients": [
+          "200g broccoli florets",
+          "100g carrots, sliced",
+          "100g bell peppers, sliced",
+          "100g mushrooms, sliced",
+          "50ml soy sauce",
+          "1 tbsp olive oil"
+        ],
+        "preparing_time": "15 min",
+        "calories": "200 calories",
+        "recipe_image": "vegetable_stirfry.jpg"
+      }
+    ]
+  }
+  

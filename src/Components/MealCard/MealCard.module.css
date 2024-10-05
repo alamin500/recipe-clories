@@ -1,0 +1,128 @@
+/* Container for both cards and summary */
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px 120px;
+    max-width: 1280px;
+    margin: 0 auto;
+    @media (max-width: 767px) {
+      flex-direction: column-reverse;
+      padding:  20px 0 80px;
+    }
+    div, span, h1, h2, h3, h4, h5, h6, p, li{
+      color: #000;
+      text-align: left;
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 60%;
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+  }
+  
+  /* Styling for individual card */
+  .card {
+    width: calc(50% - 10px);
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    @media (max-width: 1023px) {
+      width: 100%;
+    }
+  }
+  
+  .image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .title {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .description {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .ingredients {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .ingredients ul {
+    padding-left: 20px;
+    list-style: auto;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #888;
+    margin: 0 0 16px;
+  }
+  
+  .button {
+    background-color: #00c853;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #009624;
+  }
+  
+  /* Summary Section */
+  .summary {
+    width: 40%;
+    height: fit-content;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .summarySection {
+    margin-bottom: 20px;
+  }
+  
+  .summaryTable {
+    margin: 10px 0;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .preparing {
+    background-color: #00c853;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 10px;
+  }
+  
+  .total {
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
